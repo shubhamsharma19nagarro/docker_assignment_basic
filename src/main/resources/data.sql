@@ -1,0 +1,1 @@
+INSERT INTO employees.employee (id, name, email) VALUE ('empd1','default employee name', 'default@gmail.com');
