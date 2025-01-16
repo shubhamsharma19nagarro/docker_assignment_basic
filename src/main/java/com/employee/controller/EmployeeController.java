@@ -23,7 +23,7 @@ public class EmployeeController {
         return ResponseEntity.ok(employees);
     }
 
-//  Rest API to create or save Employee
+//  Rest API to create or save Employees
     @PostMapping("/add")
     public ResponseEntity<Employee> saveEmployee(@RequestBody Employee employee) {
         Employee saveEmployee = employeeService.saveEmployee(employee);
